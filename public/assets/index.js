@@ -57,10 +57,11 @@ import modal08 from './modal08.png'
 import modal09 from './modal09.png'
 import modal10 from './modal10.png'
 import sustbg from './sustentabilidadebg.png'
-
+import sustentabg from './sustentabg.png'
 import treebg from './treebg.png'
 
 export {
+  sustentabg,
   treebg,
   sustbg,
   bannerEnergia,

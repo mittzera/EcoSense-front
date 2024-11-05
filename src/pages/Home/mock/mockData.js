@@ -1,4 +1,4 @@
-import { Card01, Card02, Card03, Card04, icon01, icon02, icon03, icon04 } from "../../../../public/assets";
+import { Card01, Card02, Card03, Card04, icon01, icon02, icon03, icon04, bannerAgua, bannerEnergia, bannerCombustivel, sustentabg } from "../../../../public/assets";
 
 
 
@@ -11,8 +11,8 @@ export const cards = [
     name: "Energia",
     id: "energia",
     title: "Energia",
-    img: icon01,
-    backg: Card01,
+    img: bannerEnergia,
+    backg: bannerEnergia,
   },
   {
     id: "card-2",
@@ -21,8 +21,8 @@ export const cards = [
     name: "Agua",
     title: "Agua",
     id: "agua",
-    img: icon02,
-    backg: Card02,
+    img: bannerAgua,
+    backg: bannerAgua,
   },
   {
     id: "card-3",
@@ -31,8 +31,8 @@ export const cards = [
     name: "Combustível",
     id: "combustivel",
     title: "Combustível",
-    img: icon03,
-    backg: Card03,
+    img: bannerCombustivel,
+    backg: bannerCombustivel  ,
   },  {
     id: "card-4",
     content:
@@ -40,7 +40,7 @@ export const cards = [
     name: "Sustentabilidade",
     id: "sustentabilidade",
     title: "Sustentabilidade",
-    img: icon04,
-    backg: Card04,
+    img: sustentabg,
+    backg: sustentabg,
   },
 ];
