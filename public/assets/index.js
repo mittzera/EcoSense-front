@@ -21,9 +21,9 @@ import Certificacao01 from './certificacao01.png';
 import Certificacao02 from './certificacao02.png';
 import Certificacao03 from './certificacao03.png';
 import Certificacao04 from './certificacao04.png';
-import BannerEnergia from './bannerEnergia.png';
-import BannerAgua from './BannerAgua.png';
-import BannerCombustivel from './BannerCombustivel.png';
+import bannerEnergia from './bannerEnergia.png';
+import bannerAgua from './bannerAgua.png';
+import bannerCombustivel from './bannerCombustivel.png';
 import logobranco from './logobranco.png';
 import skybg from './skybg.jpg';
 import logosvg01 from './logosvg01.svg'
@@ -63,9 +63,9 @@ import treebg from './treebg.png'
 export {
   treebg,
   sustbg,
-  BannerEnergia,
-  BannerCombustivel,
-  BannerAgua,
+  bannerEnergia,
+  bannerCombustivel,
+  bannerAgua,
   modal01,
   modal02,
   modal03,
