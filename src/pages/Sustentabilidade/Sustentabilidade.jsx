@@ -14,9 +14,8 @@ const Sustentabilidade = () => (
       />
     </div>
        
-        <VideoBanner />
-        <Card cards={cards} />
-   
+    <VideoBanner />
+    <Card cards={cards} />
   </div>
 );
 

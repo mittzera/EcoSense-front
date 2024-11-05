@@ -1,9 +1,9 @@
 import React from 'react';
 import { VideoBanner, Card } from './components';
 import { treebg } from '../../../public/assets';
-import { cards} from './mock/mockData';
+import { cards } from './mock/mockData';
 
-const Luz = () => (
+const Energia = () => (
   <div className="relative">
     <div className="fixed inset-0 z-0">
       <img
@@ -13,17 +13,9 @@ const Luz = () => (
       />
     </div>
     <VideoBanner />
-
+    
     <Card cards={cards} />
-   
-   
-   
-    <div className="relative p-6">
-    {/* Título Geral */}
-
-  
-  </div>
   </div>
 );
 
-export default Luz;
+export default Energia;

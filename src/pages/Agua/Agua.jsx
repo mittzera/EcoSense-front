@@ -3,7 +3,7 @@ import { VideoBanner, Card } from './components';
 import { treebg } from '../../../public/assets';
 import { cards } from './mock/mockData';
 
-const Luz = () => (
+const Agua = () => (
   <div className="relative">
     <div className="fixed inset-0 z-0">
       <img
@@ -15,10 +15,7 @@ const Luz = () => (
     <VideoBanner />
     
     <Card cards={cards} />
-   
-   
-
   </div>
 );
 
-export default Luz;
+export default Agua;
