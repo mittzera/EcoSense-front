@@ -21,7 +21,7 @@ import Certificacao01 from './certificacao01.png';
 import Certificacao02 from './certificacao02.png';
 import Certificacao03 from './certificacao03.png';
 import Certificacao04 from './certificacao04.png';
-import BannerVideo from './bannerVideo.mp4';
+import BannerVideo from './BannerVideo.mp4';
 import BannerImage from './bannerImage.jpg';
 import BannerEnergia from './bannerEnergia.png';
 import BannerAgua from './BannerAgua.png';
