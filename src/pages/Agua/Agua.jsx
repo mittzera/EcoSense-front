@@ -1,5 +1,5 @@
 import React from 'react';
-import { VideoBanner, Card, Certificacoes } from './components';
+import { VideoBanner, Card } from './components';
 import { treebg } from '../../../public/assets';
 import { cards } from './mock/mockData';
 

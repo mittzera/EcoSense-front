@@ -1,7 +1,7 @@
 import React from 'react';
-import { VideoBanner, Card, Certificacoes } from './components';
+import { VideoBanner, Card } from './components';
 import { treebg } from '../../../public/assets';
-import { cards, certificados } from './mock/mockData';
+import { cards } from './mock/mockData';
 
 const Luz = () => (
   <div className="relative">

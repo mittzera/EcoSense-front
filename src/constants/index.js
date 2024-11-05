@@ -31,7 +31,7 @@ export const footerLinks = [
     links: [
       {
         name: "Home",
-        link: "",
+        link: "/",
       },
       {
         name: "Energia",
