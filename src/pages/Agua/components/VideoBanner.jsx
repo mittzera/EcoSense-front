@@ -1,11 +1,11 @@
 import React from 'react';
-import { sustbg, BannerAgua } from '../../../../public/assets';
+import { sustbg, bannerAgua } from '../../../../public/assets';
 
 function VideoBanner() {
   return (
     <div className='relative h-screen z-[99999]'>
       {/* Background Image */}
-      <img className='absolute inset-0 w-full h-full object-cover' src={BannerAgua} alt='Sustainability Background' />
+      <img className='absolute inset-0 w-full h-full object-cover' src={bannerAgua} alt='Sustainability Background' />
 
       {/* Overlay */}
       <div className='absolute inset-0 bg-black bg-opacity-70'></div>
