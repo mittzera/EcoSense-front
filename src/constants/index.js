@@ -37,7 +37,7 @@ export const footerLinks = [
         name: "Energia",
         link: "energia",
       },
-      {
+      { 
         name: "Agua",
         link: "agua",
       } , 
