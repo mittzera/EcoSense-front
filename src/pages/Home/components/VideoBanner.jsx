@@ -8,7 +8,7 @@ function VideoBanner() {
       <img className='absolute inset-0 w-full h-full object-cover' src={sustbg} alt='Sustainability Background' />
 
       {/* Overlay */}
-      <div className='absolute inset-0 bg-black bg-opacity-40'></div>
+      <div className='absolute inset-0 bg-black bg-opacity-60'></div>
 
       {/* Content */}
       <div className='absolute inset-0 flex flex-col justify-center items-center text-center px-6'>
@@ -21,8 +21,9 @@ function VideoBanner() {
           EcoSense
         </h1>
         {/* Description */}
-        <p className='text-white text-lg md:text-xl max-w-3xl'>
-          As melhores dicas para economia e ecologia, além de daos
+        <p className='text-white text-2xl md:text-3xl max-w-3xl'>
+        Economia aliada à Sustentabilidade
+
         </p>
       </div>
     </div>

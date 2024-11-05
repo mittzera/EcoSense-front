@@ -22,9 +22,7 @@ function VideoBanner() {
         </h1>
 
         {/* Description */}
-        <p className='text-white text-lg md:text-3xl max-w-7xl'>
-          Na AMAZonSKY, a sustentabilidade é fundamental. Adotamos práticas ecológicas, investimos em tecnologias limpas e minimizamos resíduos para reduzir nosso impacto ambiental. Promovemos a reciclagem e o uso eficiente de recursos, trabalhando com parceiros para criar um futuro mais verde e responsável.
-        </p>
+
       </div>
     </div>
   );
