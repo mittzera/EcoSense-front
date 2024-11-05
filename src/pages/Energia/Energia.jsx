@@ -14,11 +14,8 @@ const Luz = () => (
     </div>
     <VideoBanner />
 
-    <div className="flex flex-wrap justify-center w-full feedback-container mt-10 z-10">
-      {cards.map((card) => (
-        <Card key={card.id} {...card} />
-      ))}
-    </div>
+    <Card cards={cards} />
+   
    
    
     <div className="relative p-6">

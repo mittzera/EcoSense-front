@@ -13,11 +13,7 @@ const Home = () => (
         alt="Background"
       />
     </div>
-        <div className="flex flex-wrap justify-center w-full feedback-container relative mt-10 z-[1]">
-          {cards.map((card) => (
-            <Card key={card.id} {...card} />
-          ))}
-        </div>
+    <Card cards={cards} />
   </div>
 );
 
