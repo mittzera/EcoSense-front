@@ -1,5 +1,5 @@
 import React from 'react';
-import { skybg, treebg } from '../../../public/assets';
+import { treebg } from '../../../public/assets';
 import { cards } from './mock/mockData'; // Assuming feedback is imported correctly
 import {Card, VideoBanner} from './components'; // Assuming components are imported correctly
 

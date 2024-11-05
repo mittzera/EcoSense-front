@@ -1,4 +1,4 @@
-import { Card01, Card02, Card03, Card04, icon01, icon02, icon03, icon04, bannerAgua, bannerEnergia, bannerCombustivel, sustentabg } from "../../../../public/assets";
+import {  bannerAgua, bannerEnergia, bannerCombustivel, sustentabg } from "../../../../public/assets";
 
 
 

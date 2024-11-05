@@ -1,6 +1,5 @@
 import React from 'react';
-import { logo } from '../../public/assets';
-import { footerLinks, socialMedia } from '../constants';
+import { footerLinks} from '../constants';
 
 const Footer = () => (
   <section className="flex flex-col items-center p-4 bg-primary bg-opacity-30 border-t border-t-[#3F3E45] relative z-[999]">

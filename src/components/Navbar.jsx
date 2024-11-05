@@ -1,6 +1,6 @@
 import { useState} from 'react';
 
-import { close, logo, menu, skybg} from '../../public/assets';
+import { close,menu} from '../../public/assets';
 import { navLinks } from '../constants';
 
 
