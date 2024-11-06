@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { navLinks } from '../constants';
-import { close, menu } from '../assets';
+import { close, menu, logo } from '../assets';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -8,9 +8,16 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar border-b-[1px] border-b-[#3F3E45] bg-primary bg-opacity-30 relative z-[99999999999999999]">
       <a href={`/`}>
-        <h1 className="text-green-400 font-poppins font-semibold text-xl md:text-4xl mb-5 ml-5">
-          EcoSense
-        </h1>
+      <div className="flex items-center">
+          <img
+            className="inline object-cover h-[50px] ml-5 mr-3 mb-5"
+            src={logo}
+            alt="Arrow Up"
+          />
+          <h1 className="text-green-400 font-poppins font-semibold text-4xl md:text-7xl mb-5">
+            EcoSense
+          </h1>
+        </div>
       </a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

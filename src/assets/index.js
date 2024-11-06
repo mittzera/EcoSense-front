@@ -9,8 +9,10 @@ import sustbg from './sustentabilidadebg.png'
 import sustentabg from './sustentabg.png'
 import treebg from './treebg.png'
 import bannerEcosense from './bannerEcosense.mp4'
+import logo from './logo.svg'
 
 export {
+  logo,
   sustentabg,
   bannerEcosense,
   treebg,

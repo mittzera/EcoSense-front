@@ -1,5 +1,5 @@
 import React from 'react';
-import { sustbg } from '../../../assets';
+import { sustbg, logo } from '../../../assets';
 
 function VideoBanner() {
   return (
@@ -17,9 +17,16 @@ function VideoBanner() {
           Pratique sustentabilidade com a <br className='hidden sm:block' />{" "}
           
         </h1>
-        <h1 className='text-green-400 font-poppins font-semibold text-4xl md:text-7xl mb-5'>
-          EcoSense
-        </h1>
+        <div className="flex items-center">
+          <img
+            className="inline object-cover h-[50px] ml-5 mr-3 mb-5"
+            src={logo}
+            alt="Arrow Up"
+          />
+          <h1 className="text-green-400 font-poppins font-semibold text-4xl md:text-7xl mb-5">
+            EcoSense
+          </h1>
+        </div>
         {/* Description */}
         <p className='text-white text-lg md:text-3xl max-w-7xl'>
           Na EcoSense, ensinamos a importância da economia e os impactos que isto pode causar no nosso meio ambiente
