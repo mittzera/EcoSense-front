@@ -1,8 +1,7 @@
   import React from 'react';
-  import { VideoBanner, Card,YoutubePlayerComponent } from './components';
+  import { VideoBanner, Card } from './components';
   import { treebg } from '../../assets';
   import { cards } from './mock/mockData';
-  import ReactPlayer from 'react-player';
 
   const Energia = () => (
     <div className="relative">
@@ -15,8 +14,6 @@
     </div>
     <VideoBanner />
     
-    {/* <YoutubePlayerComponent /> */}
-
     <Card cards={cards} />
 
   </div>
