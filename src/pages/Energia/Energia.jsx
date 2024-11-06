@@ -15,7 +15,7 @@
     </div>
     <VideoBanner />
     
-    <YoutubePlayerComponent />
+    {/* <YoutubePlayerComponent /> */}
 
     <Card cards={cards} />
 
