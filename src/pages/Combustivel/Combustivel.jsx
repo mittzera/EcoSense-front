@@ -1,8 +1,8 @@
 import React from 'react';
 import { VideoBanner, Card } from './components';
 import { treebg } from '../../assets';
-import { cards } from './mock/mockData';
-// import ReactPlayer from 'react-player';
+import { cards } from './mock/mockData';  
+import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
 
 const Combustivel = () => (
   <div className="relative">
@@ -15,9 +15,8 @@ const Combustivel = () => (
     </div>
     <VideoBanner />
 
-    {/* <div className="flex justify-center mt-8 mb-10 p-5 z-10 bg-black rounded-xl">
-      <ReactPlayer className="z-[99999999] rounded-lg overflow-hidden" url='https://youtu.be/s8VneecWQQo?si=6YZSyclMwKgzdOx-' />
-    </div> */}
+    <YoutubeVideoComponent url="https://www.youtube.com/embed/s8VneecWQQo?si=vco3J5aiCIHSLXL7"  />
+
 
     <Card cards={cards} />
   </div>

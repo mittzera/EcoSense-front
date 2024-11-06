@@ -15,7 +15,7 @@ import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
     </div>
     <VideoBanner />
 
-    <YoutubeVideoComponent url="https://www.youtube.com/embed/xNRJwmlRBNU?si=oV_XxBjs2FTm25-j" />
+    <YoutubeVideoComponent url="https://www.youtube.com/embed/_6tTI1-VsW8?si=knwzPo6Q4w1Bi9hr"  />
 
  
     <Card cards={cards} />

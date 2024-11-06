@@ -3,7 +3,7 @@ import { treebg } from '../../assets';
 import VideoBanner from './components/VideoBanner';
 import { cards } from './mock/mockData';
 import Card from './components/Card';
-import ReactPlayer from 'react-player';
+import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
 
 const Sustentabilidade = () => (
   <div className="relative">
@@ -17,9 +17,7 @@ const Sustentabilidade = () => (
        
     <VideoBanner />
 
-    {/* <div className="flex justify-center mt-8 mb-10 p-5 z-10 bg-black rounded-xl">
-      <ReactPlayer className="z-[99999999] rounded-lg overflow-hidden" url='https://www.youtube.com/watch?v=UjU0RlTzP4Y' />
-    </div> */}
+    <YoutubeVideoComponent url="https://www.youtube.com/embed/UjU0RlTzP4Y?si=BgXz0IL0O-5zyd7e"  />
 
     <Card cards={cards} />
   </div>
