@@ -1,11 +1,11 @@
 import React from 'react';
-import { sustbg } from '../../../../public/assets';
+import { bannerEcosense } from '../../../../public/assets';
 
 function VideoBanner() {
   return (
     <div className='relative h-screen z-[99999]'>
       {/* Video */}
-      <img className='absolute inset-0 w-full h-full object-cover' src={sustbg} alt='Sustainability Background' />
+      <video className='absolute inset-0 w-full h-full object-cover' src={bannerEcosense} autoPlay loop muted />
 
       {/* Overlay */}
       <div className='absolute inset-0 bg-black bg-opacity-60'></div>
