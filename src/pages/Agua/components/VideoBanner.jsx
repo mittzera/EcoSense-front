@@ -1,5 +1,5 @@
 import React from 'react';
-import { bannerAgua } from '../../../../public/assets';
+import { bannerAgua } from '../../../assets';
 
 function VideoBanner() {
   return (

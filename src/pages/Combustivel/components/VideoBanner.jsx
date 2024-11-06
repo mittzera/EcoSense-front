@@ -1,5 +1,5 @@
 import React from 'react';
-import { bannerCombustivel } from '../../../../public/assets';
+import { bannerCombustivel } from '../../../assets';
 
 function VideoBanner() {
   return (

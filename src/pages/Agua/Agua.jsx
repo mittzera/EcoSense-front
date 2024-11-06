@@ -1,6 +1,6 @@
 import React from 'react';
 import { VideoBanner, Card } from './components';
-import { treebg } from '../../../public/assets';
+import { treebg } from '../../assets';
 import { cards } from './mock/mockData';
 import ReactPlayer from 'react-player';
 

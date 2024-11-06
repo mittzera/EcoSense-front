@@ -1,4 +1,4 @@
-import {  bannerAgua, bannerEnergia, bannerCombustivel, sustentabg } from "../../../../public/assets";
+import {  bannerAgua, bannerEnergia, bannerCombustivel, sustentabg } from "../../../assets";
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { bannerEcosense } from '../../../../public/assets';
+import { bannerEcosense } from '../../../assets';
 
 function VideoBanner() {
   return (

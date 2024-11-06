@@ -1,5 +1,5 @@
 import React from 'react';
-import { treebg } from '../../../public/assets';
+import { treebg } from '../../assets';
 import VideoBanner from './components/VideoBanner';
 import { cards } from './mock/mockData';
 import Card from './components/Card';

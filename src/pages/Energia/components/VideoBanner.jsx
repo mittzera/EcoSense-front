@@ -1,5 +1,5 @@
 import React from 'react';
-import { sustbg, bannerEnergia } from '../../../../public/assets';
+import { bannerEnergia } from '../../../assets';
 
 function VideoBanner() {
   return (
