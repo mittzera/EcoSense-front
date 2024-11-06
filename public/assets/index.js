@@ -8,9 +8,11 @@ import bannerCombustivel from './bannerCombustivel.png';
 import sustbg from './sustentabilidadebg.png'
 import sustentabg from './sustentabg.png'
 import treebg from './treebg.png'
+import bannerEcosense from './bannerEcosense.mp4'
 
 export {
   sustentabg,
+  bannerEcosense,
   treebg,
   sustbg,
   bannerEnergia,
