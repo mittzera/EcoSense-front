@@ -2,6 +2,7 @@
   import { VideoBanner, Card } from './components';
   import { treebg } from '../../assets';
   import { cards } from './mock/mockData';
+import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
 
   const Energia = () => (
     <div className="relative">
@@ -13,7 +14,10 @@
       />
     </div>
     <VideoBanner />
-    
+
+    <YoutubeVideoComponent url="https://www.youtube.com/embed/xNRJwmlRBNU?si=oV_XxBjs2FTm25-j" />
+
+ 
     <Card cards={cards} />
 
   </div>
