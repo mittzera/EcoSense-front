@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './pages/Home/Home';
-import Energia from './pages/Energia/Energia';
-import Agua from './pages/Agua/Agua';
-import Sustentabilidade from './pages/Sustentabilidade/Sustentabilidade';
-import Combustivel from './pages/Combustivel/Combustivel';
+import Home from './pages/Home';
+import Energia from './pages/Energia';
+import Agua from './pages/Agua';
+import Sustentabilidade from './pages/Sustentabilidade';
+import Combustivel from './pages/Combustivel';
 
 function App() {
   return (

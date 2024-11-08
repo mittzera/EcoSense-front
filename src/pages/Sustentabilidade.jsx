@@ -1,8 +1,8 @@
 import React from 'react';
-import { bannerSustentabilidaade, treebg } from '../../assets';
-import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
-import { Card,VideoBanner } from '../../components';
-import { SustentabilidadeCards } from '../../constants/cardDataArrays';
+import { bannerSustentabilidaade, treebg } from '../assets';
+import YoutubeVideoComponent from '../components/YoutubeVideoComponent';
+import { Card,VideoBanner } from '../components';
+import { SustentabilidadeCards } from '../constants/cardDataArrays';
 
 const Sustentabilidade = () => (
   <div className="relative">

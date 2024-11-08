@@ -1,8 +1,8 @@
 import React from 'react';
-import { bannerEnergia, treebg } from '../../assets';
-import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
-import { Card, VideoBanner } from '../../components';
-import { EnergiaCards } from '../../constants/cardDataArrays';
+import { bannerEnergia, treebg } from '../assets';
+import YoutubeVideoComponent from '../components/YoutubeVideoComponent';
+import { Card, VideoBanner } from '../components';
+import { EnergiaCards } from '../constants/cardDataArrays';
 
   const Energia = () => (
     <div className="relative">

@@ -1,7 +1,7 @@
 import React from 'react';
-import { bannerAgua, treebg } from '../../assets';
-import { Card, VideoBanner } from '../../components';
-import { HomeCards } from '../../constants/cardDataArrays';
+import { bannerAgua, treebg } from '../assets';
+import { Card, VideoBanner } from '../components';
+import { HomeCards } from '../constants/cardDataArrays';
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">

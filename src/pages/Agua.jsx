@@ -1,8 +1,8 @@
 import React from 'react';
-import { bannerAgua, treebg } from '../../assets';
-import  YoutubeVideoComponent from '../../components/YoutubeVideoComponent'
-import { Card, VideoBanner } from '../../components';
-import { AguaCards } from '../../constants/cardDataArrays';
+import { bannerAgua, treebg } from '../assets';
+import  YoutubeVideoComponent from '../components/YoutubeVideoComponent'
+import { Card, VideoBanner } from '../components';
+import { AguaCards } from '../constants/cardDataArrays';
 
 const Agua = () => (
   <div className="relative">    
