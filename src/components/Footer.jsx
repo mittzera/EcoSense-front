@@ -7,19 +7,19 @@ const Footer = () => (
     <div className="flex flex-col items-center xs:flex-row md:justify-between mb-6 w-full">
       
       <div className="flex w-full items-center justify-center md:justify-start flex-col ss:flex-row">
-        <a href={`/`}>
-          <div className="flex items-center">
-            <img
-              className="inline object-cover h-[50px]"
-              src={logo}
-              alt="Arrow Up"
-            />
-            <h1 className="text-green-400 font-poppins font-semibold text-4xl mb-5 mr-10">
-              EcoSense
-            </h1>
-          </div>
-        </a>
-        <p className="font-poppins font-normal text-white text-[16px] leading-[38px] text-center mt-2">
+      <a href={`/`}>
+      <div className="flex items-center">
+          <img
+            className="inline object-cover h-[50px] ml-5 mr-3 mb-5"
+            src={logo}
+            alt="Arrow Up"
+          />
+          <h1 className="text-green-400 font-poppins font-semibold text-2xl md:text-4xl mb-5">
+            EcoSense
+          </h1>
+        </div>
+      </a>    
+        <p className="font-poppins font-normal items-center text-white text-[16px] leading-[38px] text-center mb-4 ml-5">
           Economia aliada à Sustentabilidade
         </p>
       </div>
