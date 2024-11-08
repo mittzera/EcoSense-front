@@ -1,7 +1,7 @@
 import React from 'react';
 import { bannerAgua, treebg } from '../../assets';
-import { cards } from './data/data'; 
 import { Card, VideoBanner } from '../../components';
+import { HomeCards } from '../../constants/cardDataArrays';
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
@@ -15,7 +15,7 @@ const Home = () => (
     </div>
 
     <VideoBanner assetsrc={bannerAgua} whichpage={1} ishome={true}/>
-    <Card cards={cards} ishome={true}/>
+    <Card cards={HomeCards} ishome={true}/>
 
     
   </div>

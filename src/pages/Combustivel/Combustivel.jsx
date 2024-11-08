@@ -1,8 +1,8 @@
 import React from 'react';
 import { bannerCombustivel, treebg } from '../../assets';
-import { cards } from './data/data';  
 import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
 import { Card, VideoBanner } from '../../components';
+import { CombustivelCards } from '../../constants/cardDataArrays';
 
 const Combustivel = () => (
   <div className="relative">
@@ -18,7 +18,7 @@ const Combustivel = () => (
     <YoutubeVideoComponent url="https://www.youtube.com/embed/s8VneecWQQo?si=vco3J5aiCIHSLXL7"  />
 
 
-    <Card cards={cards} />
+    <Card cards={CombustivelCards} />
   </div>
 );
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { bannerAgua, treebg } from '../../assets';
-import { cards } from './data/data';
 import  YoutubeVideoComponent from '../../components/YoutubeVideoComponent'
 import { Card, VideoBanner } from '../../components';
+import { AguaCards } from '../../constants/cardDataArrays';
 
 const Agua = () => (
   <div className="relative">    
@@ -18,7 +18,7 @@ const Agua = () => (
     
     <YoutubeVideoComponent url="https://www.youtube.com/embed/oVADyHI9GIg?si=17mIsZD4QRROdAvb"  />
 
-    <Card cards={cards} />
+    <Card cards={AguaCards} />
   </div>
 );
 
