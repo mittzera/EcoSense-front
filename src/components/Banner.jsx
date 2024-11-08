@@ -32,7 +32,7 @@ function Banner({ assetsrc, pagename, whichpage, ishome }) {
               return (
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
                   <h1 className="text-white font-poppins font-semibold text-4xl md:text-6xl mb-5">
-                    Aprenda a Economizar com a <br className="hidden sm:block" />
+                    Aprenda a ser Sustentável com a <br className="hidden sm:block" />
                   </h1>
                   <div className="flex items-center">
                     <img
