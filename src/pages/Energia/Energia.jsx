@@ -1,8 +1,8 @@
   import React from 'react';
-  import { VideoBanner, Card } from './components';
-  import { treebg } from '../../assets';
-  import { cards } from './mock/mockData';
+  import { bannerEnergia, treebg } from '../../assets';
+  import { cards } from './data/data';
 import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
+import { Card, VideoBanner } from '../../components';
 
   const Energia = () => (
     <div className="relative">
@@ -13,7 +13,7 @@ import YoutubeVideoComponent from '../../components/YoutubeVideoComponent';
         alt="Background"
       />
     </div>
-    <VideoBanner />
+    <VideoBanner assetsrc={bannerEnergia} pagename='Energia' whichpage={2}/>
 
     <YoutubeVideoComponent url="https://www.youtube.com/embed/_6tTI1-VsW8?si=knwzPo6Q4w1Bi9hr"  />
 

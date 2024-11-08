@@ -1,9 +1,11 @@
 import React from 'react';
-import { VideoBanner, Card } from './components';
-import { treebg } from '../../assets';
-import { cards } from './mock/mockData';
+import { bannerAgua, treebg } from '../../assets';
+import { cards } from './data/data';
+import  YoutubeVideoComponent from '../../components/YoutubeVideoComponent'
+import { Card, VideoBanner } from '../../components';
+
 const Agua = () => (
-  <div className="relative">
+  <div className="relative">    
     <div className="fixed inset-0 z-0">
       <img
         src={treebg}
@@ -12,7 +14,7 @@ const Agua = () => (
       />
     </div>
 
-    <VideoBanner />
+    <VideoBanner assetsrc={bannerAgua} pagename='Água' whichpage={2}/>
     
     <YoutubeVideoComponent url="https://www.youtube.com/embed/oVADyHI9GIg?si=17mIsZD4QRROdAvb"  />
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import { treebg } from '../../assets';
-import { cards } from './mock/mockData'; // Assuming feedback is imported correctly
-import { Card, VideoBanner } from './components'; // Assuming components are imported correctly
+import { bannerAgua, treebg } from '../../assets';
+import { cards } from './data/data'; 
+import { Card, VideoBanner } from '../../components';
 
 const Home = () => (
   <div className="bg-primary w-full overflow-hidden">
-    <VideoBanner />
+    
     <div className="fixed inset-0 z-0">
       <img
         src={treebg}
@@ -13,7 +13,9 @@ const Home = () => (
         alt="Background"
       />
     </div>
-    <Card cards={cards} />
+
+    <VideoBanner assetsrc={bannerAgua} whichpage={1} ishome={true}/>
+    <Card cards={cards} ishome={true}/>
 
     
   </div>
