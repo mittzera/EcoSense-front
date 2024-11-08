@@ -1,7 +1,6 @@
 import React from 'react';
 import { bannerCombustivel, treebg } from '../assets';
-import YoutubeVideoComponent from '../components/YoutubeVideoComponent';
-import { Card, VideoBanner } from '../components';
+import { Card, VideoBanner,YoutubeVideoComponent } from '../components';
 import { CombustivelCards } from '../constants/cardDataArrays';
 
 const Combustivel = () => (

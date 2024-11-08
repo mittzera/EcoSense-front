@@ -1,7 +1,6 @@
 import React from 'react';
 import { bannerEnergia, treebg } from '../assets';
-import YoutubeVideoComponent from '../components/YoutubeVideoComponent';
-import { Card, VideoBanner } from '../components';
+import { Card, VideoBanner,YoutubeVideoComponent } from '../components';
 import { EnergiaCards } from '../constants/cardDataArrays';
 
   const Energia = () => (
