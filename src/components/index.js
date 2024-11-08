@@ -1,12 +1,14 @@
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Card from "./Card";
-import VideoBanner from "./VideoBanner"
+import Banner from "./Banner"
 import YoutubeVideoComponent from "./YoutubeVideoComponent";
+import Background from "./Background";
 
 export {
+  Background,
   YoutubeVideoComponent,
-  VideoBanner,
+  Banner,
   Card,
   Navbar,
   Footer,

@@ -1,14 +1,14 @@
 import React from 'react';
-import { logo, bannerEcosense } from '../assets';
+import { logo } from '../assets';
 
-function VideoBanner({ assetsrc, pagename, whichpage, ishome }) {
+function Banner({ assetsrc, pagename, whichpage, ishome }) {
   return (
     <div className="relative h-screen z-[99999]">
       {/* Background Video or Image */}
       {ishome ? (
         <video
           className="absolute inset-0 w-full h-full object-cover"
-          src={bannerEcosense}
+          src={assetsrc}
           autoPlay
           loop
           muted
@@ -84,4 +84,4 @@ function VideoBanner({ assetsrc, pagename, whichpage, ishome }) {
   );
 }
 
-export default VideoBanner;
+export default Banner;
