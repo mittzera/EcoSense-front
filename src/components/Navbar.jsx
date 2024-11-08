@@ -14,7 +14,7 @@ const Navbar = () => {
             src={logo}
             alt="Arrow Up"
           />
-          <h1 className="text-green-400 font-poppins font-semibold text-4xl md:text-7xl mb-5">
+          <h1 className="text-green-400 font-poppins font-semibold text-2xl md:text-4xl mb-5">
             EcoSense
           </h1>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`hover:text-secondary active:text-terciary font-poppins font-normal cursor-pointer text-[24px] ${index === navLinks.length - 1 ? 'mr-10' : 'mr-10'} text-white`}
+            className={`hover:text-secondary active:text-green-700 font-poppins font-normal cursor-pointer text-base md:text-base xl:text-2xl ${index === navLinks.length - 1 ? 'mr-10' : 'mr-10'} text-white`}
           >
             <a href={`/${nav.id}`}>
               {nav.title}
@@ -46,7 +46,7 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins hover:text-secondary active:text-terciary font-normal text-center cursor-pointer text-[22px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`}
+                className={`font-poppins hover:text-secondary active:text-green-700 font-normal text-center cursor-pointer text-[22px] ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'} text-white`}
               >
                 <a href={`/${nav.id}`}>
                   {nav.title}

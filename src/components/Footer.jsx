@@ -5,20 +5,21 @@ import { logo } from '../assets';
 const Footer = () => (
   <section className="flex flex-col items-center p-4 bg-primary bg-opacity-30 border-t border-t-[#3F3E45] relative z-[999]">
     <div className="flex flex-col items-center xs:flex-row md:justify-between mb-6 w-full">
-      <div className="flex items-center justify-center md:justify-start xss:flex-col ss:flex-row">
+      
+      <div className="flex w-full items-center justify-center md:justify-start flex-col ss:flex-row">
         <a href={`/`}>
-        <div className="flex items-center">
-          <img
-            className="inline object-cover h-[50px] ml-5 mr-3 mb-5"
-            src={logo}
-            alt="Arrow Up"
-          />
-          <h1 className="text-green-400 font-poppins font-semibold text-4xl md:text-7xl mb-5 mr-10">
-            EcoSense
-          </h1>
-        </div>
+          <div className="flex items-center">
+            <img
+              className="inline object-cover h-[50px]"
+              src={logo}
+              alt="Arrow Up"
+            />
+            <h1 className="text-green-400 font-poppins font-semibold text-4xl mb-5 mr-10">
+              EcoSense
+            </h1>
+          </div>
         </a>
-        <p className="font-poppins font-normal text-white text-[16px] leading-[38px] text-center mt-2 w-[50vh] max-w-[50vh]">
+        <p className="font-poppins font-normal text-white text-[16px] leading-[38px] text-center mt-2">
           Economia aliada à Sustentabilidade
         </p>
       </div>
@@ -33,7 +34,7 @@ const Footer = () => (
               {footerLink.links.map((Link, index) => (
                 <li
                   key={Link.name}
-                  className={`font-poppins font-normal text-[14px] leading-[20px] text-white hover:text-secondary active:text-terciary cursor-pointer ${
+                  className={`font-poppins font-normal text-[14px] leading-[20px] text-white hover:text-secondary active:text-green-700 cursor-pointer ${
                     index !== footerLink.links.length - 1 ? 'mb-2' : 'mb-0'
                   }`}
                 >
